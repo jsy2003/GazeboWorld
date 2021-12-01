@@ -1,3 +1,13 @@
 
 
+Two ways for simulating in Gazebo
 
+1. SDF : Simulation Description Format(SDF) is an XML description file used to describe objects and environments for robotic simulations and control.
+         From robots to the whole world, one can create man y things using the SDF format.
+         We will use SDF to define a simulated world
+         
+ 2. URDF : Unified Robot Description Forfmat(URDF) is also an XML file, however, can be used to create single robotic instance.
+           But provides for ROS integration which is what we want for future robot control.
+           We will use URDF to define the robot model.
+           
+ 
